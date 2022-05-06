@@ -1,0 +1,13 @@
+drop table board CASCADE CONSTRAINTS PURGE;
+drop table board_like CASCADE CONSTRAINTS PURGE;
+drop table chat CASCADE CONSTRAINTS PURGE;
+drop table class CASCADE CONSTRAINTS PURGE;
+drop table comments CASCADE CONSTRAINTS PURGE;
+drop table exam CASCADE CONSTRAINTS PURGE;
+drop table license CASCADE CONSTRAINTS PURGE;
+drop table manager CASCADE CONSTRAINTS PURGE;
+drop table member CASCADE CONSTRAINTS PURGE;
+drop table question CASCADE CONSTRAINTS PURGE;
+drop table reservation CASCADE CONSTRAINTS PURGE;
+drop table result CASCADE CONSTRAINTS PURGE;
+commit;
